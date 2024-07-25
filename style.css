@@ -1,15 +1,24 @@
 body {
+  background-image: url('bg.jp');
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 5px;
   text-align: center;
 }
+
 .header-container {
+  #title {
+    text-shadow: 0px 5px 10px rgba(211, 222, 228, 0.815);
+  }
+
   background-image: url('BARNER.jpg');
-  background-size:contain; /* Adjust to fit the container */
+  background-size:contain;
+  /* Adjust to fit the container */
   background-position: center center;
-  height: 190px; /* Adjust height as needed */
+  height: 190px;
+  /* Adjust height as needed */
 }
+
 header {
 
   background-color: #f0f0f0;
@@ -29,19 +38,21 @@ header {
     text-decoration: none;
     color: black;
   }
-  .logo{
-   #logo{
-    width: 50px;
-    height: auto;
-   }
+
+  .logo {
+    #logo {
+      width: 50px;
+      height: auto;
+    }
   }
-  .header{
+
+  .header {
     display: inline-flex;
   }
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3rem;
 }
 
 p {
@@ -74,14 +85,17 @@ button:hover {
   border: 1px solid #ccc;
   border-radius: 9px;
   overflow: hidden;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  /* Adjust values as needed */
 
-.flashcard img {
-  width: 200px; /* Adjust image width as needed */
-  height: auto;
-}
+  .flashcard img {
+    width: 50%;
+    /* Adjust image width as needed */
+    height: auto;
+  }
 
-.text-container {
-  padding: 20px;
-  flex-grow: 1; /* Make the text container expand to fill available space */
-}
+  .text-container {
+    padding: 20px;
+    flex-grow: 1;
+    /* Make the text container expand to fill available space */
+  }
