@@ -4,14 +4,39 @@ body {
   padding: 0;
   text-align: center;
 }
-
+.header-container {
+  background-image: url('BARNER.jpg');
+  background-size:contain; /* Adjust to fit the container */
+  background-position: center center;
+  height: 190px; /* Adjust height as needed */
+}
 header {
-  
+
   background-color: #f0f0f0;
   padding: 20px;
-  img {
-    max-width: 100%;
+
+  ul {
+    list-style: none;
+
+  }
+
+  li {
+    display: inline;
+    padding: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .logo{
+   #logo{
+    width: 50px;
     height: auto;
+   }
+  }
+  .header{
+    display: inline-flex;
   }
 }
 
@@ -39,4 +64,24 @@ button {
 
 button:hover {
   background-color: #4413a0;
+}
+
+
+/*Main */
+.flashcard {
+  display: flex;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+
+.flashcard img {
+  width: 200px; /* Adjust image width as needed */
+  height: auto;
+}
+
+.text-container {
+  padding: 20px;
+  flex-grow: 1; /* Make the text container expand to fill available space */
 }
