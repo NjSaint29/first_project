@@ -1,5 +1,5 @@
 body {
-  background-image: url('bg.jpg');
+  background-image: url('BG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(246, 246, 248);
@@ -101,6 +101,7 @@ button:hover {
 /*Main */
 .flashcard {
   background: transparent;
+  backdrop-filter: blur(15px);
   display: flex;
   margin: 20px;
   border: 1px solid #ccc;
