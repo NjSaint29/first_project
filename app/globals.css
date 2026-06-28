@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bone: #f4f1ea;
+  --ink: #0a0a0a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--ink);
+  color: var(--bone);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--bone);
+  color: var(--ink);
+}
+
+/* Oversized display headline treatment */
+.display-xl {
+  font-family: var(--font-display), system-ui, sans-serif;
+  text-transform: uppercase;
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+}
+
+/* Thin separators */
+.hairline {
+  border-color: rgba(244, 241, 234, 0.16);
+}
+
+/* Hide scrollbar for marquee track */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
