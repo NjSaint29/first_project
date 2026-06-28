@@ -1,4 +1,28 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+/build
+/dist
+
+# misc
 .DS_Store
-node_modules
-dist
 .idea
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
